@@ -15,7 +15,7 @@ const ServiceSection = (props: Props) => {
   ];
 
   return (
-    <div css={Styles.ServiceStyle}>
+    <section css={Styles.ServiceStyle}>
       <div className='service-section-wrapper container'>
         <div className='service-section-subtitle subtitle'>SERVIÇOS</div>
         <div className='service-section-title title'>
@@ -29,7 +29,7 @@ const ServiceSection = (props: Props) => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,23 +1,31 @@
 import { CSSProp } from 'styled-components';
+import { BreakPoint } from '../../constants/BreakPoint';
+import { maxWidth } from '../../utils';
 
 export const ContactStyle = {
   backgroundColor: '#FFFFFF',
 
   '.contact-section-wrapper': {
-    padding: '16rem 0',
+    paddingTop: '16rem',
+    paddingBottom: '16rem',
     display: 'flex',
     alignItems: 'center',
     gap: '6.7rem',
+
+    [maxWidth(BreakPoint.MOBILE)]: {
+      flexDirection: 'column',
+      alignItems: 'start',
+    }
   },
 
   '.contact-section-col': {
-    width: '50%',
+    flex: 1,
   },
 
   '.contact-section-img': {
     width: '100%',
     maxWidth: '57.5rem',
-    height: '37.9rem',
+    height: 'auto',
     borderRadius: '2rem',
   },
 } as CSSProp;
