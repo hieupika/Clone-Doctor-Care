@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.subtitle {
+  color: #00856F;
+  letter-spacing: 0.8;
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 5.2rem;
+}
+
+.desc {
+  color: #495057;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.subtitle + .title {
+  margin-top: 1.6rem;
+}
+
+.title + .desc {
+  margin-top: 2.4rem;
+}
