@@ -23,7 +23,7 @@ export const AboutStyle = {
     '> img': {
       width: '100%',
       maxWidth: '48rem',
-      borderRadius: '2rem',
+      borderRadius: '1rem',
       objectFit: 'cover',
     },
   },

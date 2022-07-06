@@ -26,7 +26,7 @@ export const ContactStyle = {
     width: '100%',
     maxWidth: '57.5rem',
     height: 'auto',
-    borderRadius: '2rem',
+    borderRadius: '1rem',
   },
 } as CSSProp;
 
